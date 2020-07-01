@@ -17,8 +17,8 @@ hooks:
   ApplicationStop:
     - location: scripts/stop_server.sh
       timeout: 300
-  #ValidateService:
-  #  - location: /healthCheck.sh
-  #    timeout: 300
-  #    runas: ubuntu
+  ValidateService:
+    - location: scripts/healthCheck.sh
+      timeout: 300
+      runas: ubuntu
       # ubuntu의 $HOME 환경변수를 이용해보려고 runas ubuntu
