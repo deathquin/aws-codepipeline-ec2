@@ -1,2 +1,2 @@
 #!/bin/bash
-forever start ./bin/www
+forever start /home/ubuntu/build/bin/www
