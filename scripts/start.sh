@@ -1,3 +1,3 @@
 #!/bin/bash
-forever start /home/ubuntu/build/bin/www
-nohup npm start >/home/ubuntu/logs 2>&1 </home/ubuntu/errors &
+forever start /home/ec2-user/bin/www # /home/ubuntu/build/bin/www - ubuntu
+nohup npm start >/home/logs 2>&1 </home/errors & # /home/ubuntu - ubuntu
