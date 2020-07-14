@@ -4,7 +4,7 @@ version: 0.0
 os: linux # os는 배포하는 EC2 Instance가 Linux 계열이면 linux로, Windows 서버 인스턴스라면 windows로 설정
 files: # files는 빌드 파일 중 source를 destination에 복사시킨다는 의미입니다.
   - source: /
-    destination: /home/ubuntu/build
+    destination: /home/ec2-user # /home/ubuntu/build - ubuntu
 hooks:
   BeforeInstall:
     - location: scripts/npm-install.sh
