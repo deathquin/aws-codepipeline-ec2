@@ -1,3 +1,3 @@
 #!/bin/bash
-cd /home/ec2-user/ # /home/ubuntu/build/ - ubuntu
+cd /home/ubuntu/build # /home/ubuntu/build/ - ubuntu,  /home/ec2-user/
 forever stopall
