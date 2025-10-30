@@ -8,6 +8,8 @@ const app = require('../app');
 const debug = require('debug')('aws-codepipeline-ec2:server');
 const http = require('http');
 
+console.log("123")
+
 /**
  * Get port from environment and store in Express.
  */
