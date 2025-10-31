@@ -5,7 +5,7 @@ const router = express.Router();
 router.get('/', function(req, res, next) {
   console.log("hello");
   //res.render('index', { title: 'Express' });
-  res.json("Node.js Framework Express Go 123335 77");
+  res.json("Node.js Framework Express Go 7");
 });
 
 router.get('/healthcheck', function(req, res, next) {
